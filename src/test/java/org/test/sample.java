@@ -28,10 +28,10 @@ public class sample extends BaseClass{
 		System.out.println(title);
 		
 		WebElement txtUsername = driver.findElement(By.id("email"));
-		sendkeys(txtUsername, "anand");
+		sendkeys(txtUsername, "anandraj");
 		
 		WebElement txtPassword = driver.findElement(By.id("pass"));
-		sendkeys(txtPassword, "8878");
+		sendkeys(txtPassword, "887888");
 	
 		WebElement btnlogin = driver.findElement(By.name("login"));
 		click(btnlogin);
